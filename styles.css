@@ -176,7 +176,7 @@ font-family: demo;
     color: hsl(224, 30%, 70%);
 }
 
-@media(max-width:1384px){
+@media(max-width:800px){
     body{
         position: relative;
     }
