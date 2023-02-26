@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <section class="grid">
+      <div class="result">
+        <span class="res">Your Result</span>
+        <div class="circle">
+          <h1>76</h1>
+          <span class="no">of 100</span>
+        </div>
+        <h2>Great</h2>
+        <p>
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+      <div class="summary">
+        <div class="summary_box">
+          <div class="box"><h3>Summary</h3></div>
+
+          <div class="icon-flex icon-reaction">
+            <div class="inline-flex">
+              <div>
+                <img src="./assets/images/icon-reaction.svg" alt="" />
+              </div>
+              <h5 class="reaction">Reaction</h5>
+            </div>
+            <div><span class="primaryno">80</span><span class="secondaryno"> / 100</span></div>
+          </div>
+
+          <div class="icon-flex icon-memory">
+            <div class="inline-flex">
+              <div>
+                <img src="./assets/images/icon-memory.svg" alt="" />
+              </div>
+              <h5 class="memory">Memory</h5>
+            </div>
+            <div><span class="primaryno">91</span><span class="secondaryno"> / 100</span></div>
+          </div>
+
+          <div class="icon-flex icon-verbal">
+            <div class="inline-flex">
+              <div>
+                <img src="./assets/images/icon-verbal.svg" alt="" />
+              </div>
+              <h5 class="verbal">Verbal</h5>
+            </div>
+            <div><span class="primaryno">61</span><span class="secondaryno"> / 100</span></div>
+          </div>
+
+          <div class="icon-flex icon-visual">
+            <div class="inline-flex">
+              <div>
+                <img src="./assets/images/icon-visual.svg" alt="" />
+              </div>
+              <h5 class="visual">Visual</h5>
+            </div>
+            <div><span class="primaryno">72</span><span class="secondaryno"> / 100</span></div>
+          </div>
+
+          <button class="btn">Continue</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
